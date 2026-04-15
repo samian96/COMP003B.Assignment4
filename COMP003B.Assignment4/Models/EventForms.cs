@@ -2,6 +2,7 @@
 
 namespace COMP003B.Assignment4.Models
 {
+    // Model for the Form page of the application
     public class EventForms
     {
         public int Id { get; set; }
