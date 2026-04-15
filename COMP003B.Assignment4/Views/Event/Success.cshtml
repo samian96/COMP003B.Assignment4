@@ -1,0 +1,13 @@
+﻿@{
+    ViewData["Title"] = "Success";
+    Layout = "~/views/shared/_layout.cshtml";
+}
+
+@model COMP003B.Assignment4.Models.OrderForm
+
+<h2>Order Form Successfully Completed!</h2>
+<h4>Order Form Information Reciept.</h4>
+<p><strong>Full Name:</strong>@Model.FullName</p>
+<p><strong>Email Address:</strong>@Model.Email</p>
+<p><strong>Quantity:</strong>@Model.Quantity</p>
+<p><strong>Additional Notes:</strong>@Model.AdditionalNote</p>
