@@ -3,7 +3,7 @@
 namespace COMP003B.Assignment4.Models
 {
     // Model for the Form page of the application
-    public class EventForms
+    public class NewsLetter
     {
         public int Id { get; set; }
 
@@ -21,6 +21,9 @@ namespace COMP003B.Assignment4.Models
         [Range(1,20)]
 
         public int Quantity { get; set; }
+
+        [Required]
+        []
 
         [StringLength(100)]
 

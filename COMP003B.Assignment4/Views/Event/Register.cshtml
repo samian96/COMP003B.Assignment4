@@ -4,7 +4,7 @@
     Layout = "~/views/shared/_layout.cshtml";
 }
 
-@model COMP003B.Assignment4.Models.EventForms 
+@model COMP003B.Assignment4.Models.NewsLetter 
 
 <h2>Register for Event</h2>
 
@@ -29,9 +29,9 @@
     </div>
 
     <div>
-        <label asp-for="AdditionalNote"></label>
+        <label asp-for="AdditionalNote">Additional Notes</label>
         <input asp-for="AdditionalNote" class="form-control" />
-        <span asp-validation-for="AdditionalNote" class="text-danger">Additional Notes</span>
+        <span asp-validation-for="AdditionalNote" class="text-danger"></span>
     </div>
 
     <button type="submit" class="btn btn-primary">Submit</button>
