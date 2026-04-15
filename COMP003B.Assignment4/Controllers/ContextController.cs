@@ -5,7 +5,7 @@ namespace COMP003B.Assignment4.Controllers
 {
     public class ContextController : Controller
     {
-    public IActionResult Context()
+    public IActionResult Index()
         {
             var context = new List<Context>
             {
