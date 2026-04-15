@@ -14,5 +14,11 @@ namespace COMP003B.Assignment4.Controllers
 
             return View(context);
         }
+
+        public IActionResult Details(int id)
+        {
+            var context = new Context { Id = id, Title = $"Context {id}", Description = "Detailed content coming soon" };
+            return View(context);
+        }
     }
 }
