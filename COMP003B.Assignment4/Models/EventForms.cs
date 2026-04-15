@@ -16,6 +16,11 @@ namespace COMP003B.Assignment4.Models
 
         public string Email { get; set; }
 
+        [Required]
+        [Range(1,20)]
+
+        public int Quantity { get; set; }
+
 
     }
 }
