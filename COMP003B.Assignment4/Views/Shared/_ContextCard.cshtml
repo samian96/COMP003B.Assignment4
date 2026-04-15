@@ -5,6 +5,7 @@
         <div class="card-body">
             <h4 class="card-title">@Model.Title</h4>
             <p class="card-text">@Model.Description</p>
+            <a asp-action="Context" asp-route-id="@Model.Id" class="btn btn-outline-primary">Read More</a>
         </div>
     </div>
 }
