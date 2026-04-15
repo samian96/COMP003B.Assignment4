@@ -21,6 +21,9 @@ namespace COMP003B.Assignment4.Models
 
         public int Quantity { get; set; }
 
+        [StringLength(100)]
+
+        public string? AdditionalNote { get; set; }
 
     }
 }
