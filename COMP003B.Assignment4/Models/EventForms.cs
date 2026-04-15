@@ -11,5 +11,11 @@ namespace COMP003B.Assignment4.Models
 
         public string FullName { get; set; }
 
+        [Required]
+        [EmailAddress]
+
+        public string Email { get; set; }
+
+
     }
 }
