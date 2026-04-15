@@ -8,7 +8,7 @@ namespace COMP003B.Assignment4.Controllers
     {
         [HttpGet] 
 
-        public IActionResult Register()
+        public IActionResult OrderForm()
         {
             return View();
         }
