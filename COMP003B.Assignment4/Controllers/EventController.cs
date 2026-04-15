@@ -15,7 +15,8 @@ namespace COMP003B.Assignment4.Controllers
         }
 
         [HttpPost("orderform")]
-
+        // Section checks to see if all required fields have been filled 
+        // if not it returns back to the orderform view
         public IActionResult OrderForm([FromForm] OrderForm orderform)
         {
             if (!ModelState.IsValid)
