@@ -27,11 +27,11 @@ namespace COMP003B.Assignment4.Controllers
         {
             var context = new List<Context>
             {
-                new Context {Id = 1, Title = "This is a test title2", Description = "This is a test description" },
+                new Context {Id = 1, Title = "Performance", Description = "When you are looking for performance, A4 is the way to go." },
 
-                new Context {Id = 2, Title = "Second test for a title", Description = "This is a test description"},
+                new Context {Id = 2, Title = "Comfort", Description = "Next Level brand is the perfect choice for comfortable and sturdy streetwear."},
 
-                new Context {Id = 3, Title = "Second test for a title", Description = "This is a test description"}
+                new Context {Id = 3, Title = "Looking for more?", Description = "Check out our distributers website for a full catalog!"}
             };
 
             return View(context);
