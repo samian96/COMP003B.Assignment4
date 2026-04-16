@@ -12,11 +12,11 @@ namespace COMP003B.Assignment4.Controllers
         {
             var context = new List<Context>
             {
-                new Context {Id = 1, Title = "This is a test title", Description = "This is a test description" },
+                new Context {Id = 1, Title = "Graphic Design", Description = "Our graphic designers can turn your ideas into a reality." },
 
-                new Context {Id = 2, Title = "Second test for a title", Description = "This is a test description"},
+                new Context {Id = 2, Title = "Screen-Printing", Description = "Screen printing is the classic way to bring your brand to life!"},
 
-                new Context {Id = 3, Title = "Second test for a title", Description = "This is a test description"}
+                new Context {Id = 3, Title = "Digital Printing", Description = "Digital printing is the go to for small items and promotional swag."}
             };
 
             return View(context);
