@@ -2,7 +2,7 @@
 
 namespace COMP003B.Assignment4.Models
 {
-    public class Context
+    public class Summary
     {
         public int Id { get; set; }
 
