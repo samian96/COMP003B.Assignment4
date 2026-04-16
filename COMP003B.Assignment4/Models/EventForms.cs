@@ -25,7 +25,7 @@ namespace COMP003B.Assignment4.Models
         [Required]
         [StringLength(100, MinimumLength = 3)]
 
-        public string ShippingAddress { get; set; }
+        public string Product { get; set; }
 
 
         [StringLength(100)]

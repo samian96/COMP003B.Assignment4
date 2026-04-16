@@ -7,14 +7,14 @@ namespace COMP003B.Assignment4.Controllers
     [Route("event")]
     public class EventController : Controller
     {
-        [HttpGet("orderform")] 
+        [HttpGet("orderform/{product}")] 
 
-        public IActionResult OrderForm()
+        public IActionResult OrderForm(string product)
         {
             return View();
         }
 
-        [HttpPost("orderform")]
+        [HttpPost("orderform/{product}")]
         // Section checks to see if all required fields have been filled 
         // if not it returns back to the orderform view
         public IActionResult OrderForm([FromForm] OrderForm orderform)
