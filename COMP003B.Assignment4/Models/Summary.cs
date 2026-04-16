@@ -6,6 +6,11 @@ namespace COMP003B.Assignment4.Models
     {
         public int Id { get; set; }
 
+        [Required]
+        [Range(1,10)]
+
+        public int Article { get; set; }
+
 
         [Required]
         [StringLength(100)]

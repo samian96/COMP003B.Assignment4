@@ -13,11 +13,11 @@ namespace COMP003B.Assignment4.Controllers
         {
             var summary = new List<Summary>
             {
-                new Summary {Id = 1, Title = "Graphic Design", Description = "Our graphic designers can turn your ideas into a reality." },
+                new Summary {Id = 1, Article = 1,  Title = "Graphic Design", Description = "Our graphic designers can turn your ideas into a reality." },
 
-                new Summary {Id = 2, Title = "Screen-Printing", Description = "Screen printing is the classic way to bring your brand to life!"},
+                new Summary {Id = 2, Article = 2, Title = "Screen-Printing", Description = "Screen printing is the classic way to bring your brand to life!"},
 
-                new Summary {Id = 3, Title = "Digital Printing", Description = "Digital printing is the go to for small items and promotional swag."}
+                new Summary {Id = 3, Article = 3,Title = "Digital Printing", Description = "Digital printing is the go to for small items and promotional swag."}
             };
 
             return View(summary);
@@ -28,11 +28,11 @@ namespace COMP003B.Assignment4.Controllers
         {
             var details = new List<Summary>
             {
-                new Summary {Id = 1, Title = "Performance", Description = "When you are looking for performance, A4 is the way to go." },
+                new Summary {Id = 1, Article = 1,Title = "Performance", Description = "When you are looking for performance, A4 is the way to go." },
 
-                new Summary {Id = 2, Title = "Comfort", Description = "Next Level brand is the perfect choice for comfortable and sturdy streetwear."},
+                new Summary {Id = 2, Article = 2,Title = "Comfort", Description = "Next Level brand is the perfect choice for comfortable and sturdy streetwear."},
 
-                new Summary {Id = 3, Title = "Looking for more?", Description = "Check out our distributers website for a full catalog!"}
+                new Summary {Id = 3, Article = 3,Title = "Looking for more?", Description = "Check out our distributers website for a full catalog!"}
             };
 
             return View(details);
