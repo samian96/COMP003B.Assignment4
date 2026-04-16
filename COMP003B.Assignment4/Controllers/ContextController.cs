@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using COMP003B.Assignment4.Models;
 using System.Diagnostics.Tracing;
+using System.Reflection;
 
 namespace COMP003B.Assignment4.Controllers
 {
@@ -38,7 +39,7 @@ namespace COMP003B.Assignment4.Controllers
         }
         public IActionResult Context(int id)
         {
-            var context = new Context { Id = id, Title = $"Context {id}", Description = "Detailed content coming soon" };
+            var context = new Context { Id = id, Title = $"Context {id}", Description = "This area would be the description of the content clicked. Currently Under construction." };
             return View(context);
         }
     }
