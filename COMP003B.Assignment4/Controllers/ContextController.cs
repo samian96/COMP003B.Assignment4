@@ -27,7 +27,7 @@ namespace COMP003B.Assignment4.Controllers
         {
             var context = new List<Context>
             {
-                new Context {Id = 1, Title = "This is a test title", Description = "This is a test description" },
+                new Context {Id = 1, Title = "This is a test title2", Description = "This is a test description" },
 
                 new Context {Id = 2, Title = "Second test for a title", Description = "This is a test description"},
 
