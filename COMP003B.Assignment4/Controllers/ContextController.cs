@@ -22,6 +22,20 @@ namespace COMP003B.Assignment4.Controllers
             return View(context);
         }
 
+        [Route("index2")]
+        public IActionResult Index2()
+        {
+            var context = new List<Context>
+            {
+                new Context {Id = 1, Title = "This is a test title", Description = "This is a test description" },
+
+                new Context {Id = 2, Title = "Second test for a title", Description = "This is a test description"},
+
+                new Context {Id = 3, Title = "Second test for a title", Description = "This is a test description"}
+            };
+
+            return View(context);
+        }
         public IActionResult Context(int id)
         {
             var context = new Context { Id = id, Title = $"Context {id}", Description = "Detailed content coming soon" };
