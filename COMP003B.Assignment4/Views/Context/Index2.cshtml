@@ -1,0 +1,12 @@
+﻿@model IEnumerable<Context>
+@{
+    ViewData["Title"] = "Context";
+    Layout = "_Layout";
+}
+
+<h2>Context</h2>
+
+@foreach (var context in Model)
+{
+    <partial name="_ContextCard" model="context" />
+}
